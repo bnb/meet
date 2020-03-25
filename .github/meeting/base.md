@@ -12,6 +12,6 @@
 
 ## Agenda
 
-> Agenda Items are extracted from the `meeting` label.
+> Agenda Items are extracted from the `{{{agenda-label}}}` label.
 
 {{{agenda}}}

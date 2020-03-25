@@ -15,5 +15,6 @@ jobs:
         markdown-join-instructions: .github/meeting/how-to-join.md
         markdown-minutes-base: .github/meeting/base.md
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        agenda-label: meet-agenda
         invites: '@bnb'
         observers: '@cutenode-bot'
