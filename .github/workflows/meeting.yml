@@ -12,8 +12,8 @@ jobs:
         fetch-depth: 0
     - uses: cutenode/action-meeting@master
       with:
-        markdown-join-instructions: '.github/meeting/how-to-join.md'
-        markdown-minutes-base: '.github/meeting/base.md'
+        markdown-join-instructions: .github/meeting/how-to-join.md
+        markdown-minutes-base: .github/meeting/base.md
         github-token: ${{ secrets.GITHUB_TOKEN }}
         invites: '@bnb'
         observers: '@cutenode-bot'
