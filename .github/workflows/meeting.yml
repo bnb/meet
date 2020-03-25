@@ -1,9 +1,9 @@
 name: "Meeting"
 on:
   issue_comment:
-    types: [created, deleted]
+    types: [created, edited]
 jobs:
-  create-meeting:
+  meeting:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
