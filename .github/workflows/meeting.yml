@@ -2,7 +2,7 @@ name: Meeting
 
 on:
   issue_comment:
-    types: created, deleted
+    types: [created, deleted]
     
 jobs:
   create-meeting:
