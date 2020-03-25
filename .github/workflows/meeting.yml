@@ -10,7 +10,7 @@ jobs:
       with:
         # 0 indicates all history
         fetch-depth: 0
-    - uses: cutenode/action-meeting@master
+    - uses: cutenode/action-meeting@dev
       with:
         markdown-join-instructions: .github/meeting/how-to-join.md
         markdown-minutes-base: .github/meeting/base.md
