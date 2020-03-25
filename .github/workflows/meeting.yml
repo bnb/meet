@@ -1,0 +1,21 @@
+name: Meeting
+
+on:
+  issue_comment:
+    types: created, deleted
+    
+jobs:
+  create-meeting:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # 0 indicates all history
+        fetch-depth: 0
+    - uses: cutenode/action-meet@master
+      with:
+        markdown-join-instructions: '.github/meeting/how-to-join.md'
+        markdown-minutes-base: '.github/meeting/base.md'
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        invites: '@bnb'
+        observers: '@cutenode-bot'
