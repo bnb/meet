@@ -1,9 +1,7 @@
-name: Meeting
-
+name: "Meeting"
 on:
   issue_comment:
     types: [created, deleted]
-    
 jobs:
   create-meeting:
     runs-on: ubuntu-18.04
