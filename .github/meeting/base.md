@@ -6,6 +6,10 @@
 * **GitHub Issue**: {{{github-issue}}}
 * **Minutes Document**: {{{minutes-document}}}
 
+## How to Join
+
+{{{join}}}
+
 ## Present
 
 {{{invited}}}
