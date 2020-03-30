@@ -2,7 +2,6 @@
 
 ## Links
 
-* **Recording**:  
 * **GitHub Issue**: {{{github-issue}}}
 * **Minutes Document**: {{{minutes-document}}}
 
