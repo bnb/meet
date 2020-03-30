@@ -16,6 +16,6 @@ jobs:
         markdown-minutes-base: .github/meeting/base.md
         github-token: ${{ secrets.GITHUB_TOKEN }}
         agenda-label: meet-agenda
-        meeting-label: meeting!
+        meeting-label: meeting
         invites: '@bnb'
         observers: '@cutenode-bot'
