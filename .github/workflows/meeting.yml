@@ -19,4 +19,4 @@ jobs:
         meeting-label: meeting
         invites: '@bnb'
         observers: '@cutenode-bot'
-        org: 'bnb'
+        org: bnb
